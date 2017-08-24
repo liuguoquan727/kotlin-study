@@ -1,6 +1,5 @@
-package tutorial
+package com.liuguoquan.kotlin.tutorial
 
-import java.util.function.Predicate
 
 /**
  * Descriptions: 控制流程语句
@@ -101,7 +100,7 @@ fun doWhile() {
 
 fun doJump() {
 
-  var nums = intArrayOf(1,2,3,4,5,6)
+  var nums = intArrayOf(1, 2, 3, 4, 5, 6)
   var s = nums.filter { it != 3 }
   println(s)
   lable@ for (num in nums) {
