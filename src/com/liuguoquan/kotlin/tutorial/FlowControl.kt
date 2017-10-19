@@ -2,7 +2,7 @@ package com.liuguoquan.kotlin.tutorial
 
 
 /**
- * Descriptions: 控制流程语句
+ * Descriptions: 控制流程语句和基本数据类型
  *
  * Created by liuguoquan on 2017/8/22.
  */
@@ -16,6 +16,9 @@ fun main(args: Array<String>) {
   doJump()
 }
 
+/**
+ * 基本数据类型
+ */
 fun doBasic() {
   var a: Int = 10
   var b: Float = 10.0f
@@ -78,6 +81,9 @@ fun doFor() {
   var students: Array<String> = arrayOf("lee", "zhang", "liu")
   for (stu in students) {
     println(stu)
+  }
+  for (index in students.indices) {
+    println("index $index name ${students[index]}")
   }
   for ((index, stu) in students.withIndex()) {
     println("index $index name $stu")
