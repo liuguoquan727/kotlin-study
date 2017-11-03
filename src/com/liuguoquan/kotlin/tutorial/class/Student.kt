@@ -13,6 +13,9 @@ class Student {
   val age: String = "22"  //val 不可变变量
   var sex: String = "female"
 
+  /**
+   * 次级构造函数
+   */
   constructor(name: String, sex: String) {
     this.name = name
     this.sex = sex

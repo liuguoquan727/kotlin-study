@@ -14,4 +14,6 @@ fun main(args: Array<String>) {
   println(stu.serverName())
   println(stu.toString())
   println(Student.doThing())
+  println(ProgramerEnum.C.value)
+  println(ProgramerEnum.C.ordinal)
 }
